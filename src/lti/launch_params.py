@@ -28,6 +28,7 @@ LAUNCH_PARAMS_RECOMMENDED = [
     'user_id',
     'user_image',
     'roles',
+    'role',
     'lis_person_name_given',
     'lis_person_name_family',
     'lis_person_name_full',

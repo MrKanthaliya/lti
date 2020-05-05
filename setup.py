@@ -15,7 +15,7 @@ setup(
         'lxml',
         'requests-oauthlib',
     ],
-    dependency_links=['https://github.com/MrKanthaliya/lti/blob/master#egg=package-1.0']
+    dependency_links=['https://github.com/MrKanthaliya/lti/blob/master#egg=package-1.0'],
     license='MIT License',
     keywords='lti',
     zip_safe=True,

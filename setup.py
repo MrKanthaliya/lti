@@ -13,7 +13,7 @@ setup(
     packages=find_packages('src'),
     install_requires=[
         'lxml',
-        'git+https://github.com/MrKanthaliya/oauthlib.git',
+        'git+https://github.com/MrKanthaliya/oauthlib.git#egg=package-name',
         'requests-oauthlib',
     ],
     license='MIT License',

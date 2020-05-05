@@ -13,9 +13,9 @@ setup(
     packages=find_packages('src'),
     install_requires=[
         'lxml',
+        'repo @ git+https://github.com/MrKanthaliya/oauthlib.git#egg=package-name',
         'requests-oauthlib',
     ],
-    dependency_links=['https://github.com/MrKanthaliya/lti/blob/master#egg=package-1.0'],
     license='MIT License',
     keywords='lti',
     zip_safe=True,
